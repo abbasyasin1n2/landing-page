@@ -45,11 +45,17 @@ body {
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: all 0.3s ease;
+    transform: scale(1);
 }
 
 .signup-btn:hover {
     background: #3d37cc;
+    transform: scale(1.05);
+}
+
+.signup-btn:active {
+    transform: scale(0.98);
 }
 
 .banner {
@@ -86,11 +92,17 @@ body {
     border-radius: 8px;
     font-size: 20px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: all 0.3s ease;
+    transform: scale(1);
 }
 
 .stay-focused-btn:hover {
     background: #3d37cc;
+    transform: scale(1.05);
+}
+
+.stay-focused-btn:active {
+    transform: scale(0.98);
 }
 
 .action {
@@ -133,11 +145,17 @@ body {
     border-radius: 8px;
     font-size: 18px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: all 0.3s ease;
+    transform: scale(1);
 }
 
 .launch-btn:hover {
     background: #3d37cc;
+    transform: scale(1.05);
+}
+
+.launch-btn:active {
+    transform: scale(0.98);
 }
 
 .action-image img {
@@ -312,12 +330,18 @@ body {
     border-radius: 8px;
     font-size: 20px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: all 0.3s ease;
+    transform: scale(1);
     margin-bottom: 40px;
 }
 
 .get-started-btn:hover {
     background: #3d37cc;
+    transform: scale(1.05);
+}
+
+.get-started-btn:active {
+    transform: scale(0.98);
 }
 
 .ready-image {
@@ -407,12 +431,18 @@ body {
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: all 0.3s ease;
+    transform: scale(1);
     width: 100%;
 }
 
 .contact-btn:hover {
     background: #3d37cc;
+    transform: scale(1.05);
+}
+
+.contact-btn:active {
+    transform: scale(0.98);
 }
 
 .footer {
