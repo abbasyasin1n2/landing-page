@@ -29,9 +29,12 @@ body {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 34px;
     font-weight: bold;
     color: #4E47FF;
+    font-family: 'Inter', sans-serif;
+    height: 51px;
+    width: 99px;
 }
 
 .signup-btn {
@@ -43,6 +46,8 @@ body {
     font-size: 16px;
     cursor: pointer;
     transition: background 0.3s ease;
+    width: 132px;
+    height: 40px;
 }
 
 .signup-btn:hover {
@@ -60,11 +65,13 @@ body {
 }
 
 .banner-content h1 {
-    font-size: 48px;
+    font-size: 65px;
     font-weight: bold;
-    color: #1f2937;
+    color: #252432;
     margin-bottom: 40px;
     line-height: 1.2;
+    height: 152px;
+    width: 905px;
 }
 
 .stay-focused-btn {
@@ -73,9 +80,11 @@ body {
     padding: 16px 32px;
     border: none;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
     transition: background 0.3s ease;
+    height: 48px;
+    width: 174px;
 }
 
 .stay-focused-btn:hover {
@@ -88,6 +97,8 @@ body {
 }
 
 .action-container {
+    height: 328px;
+    width: 1140px;
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -97,23 +108,30 @@ body {
 }
 
 .action-content h2 {
-    font-size: 36px;
+    height: 49px;
+    width: 517px;
+    font-size: 42px;
     font-weight: bold;
-    color: #1f2937;
+    color: #252432;
     margin-bottom: 20px;
 }
 
 .action-content p {
-    font-size: 18px;
+    height: 60px;
+    width: 517px;
+    font-weight: regular;
+    font-size: 24px;
     color: #6b7280;
     margin-bottom: 30px;
     line-height: 1.6;
 }
 
 .launch-btn {
+    height: 48px;
+    width: 229px;
     background: #4E47FF;
     color: white;
-    padding: 14px 28px;
+    padding: 12px 36px;
     border: none;
     border-radius: 8px;
     font-size: 16px;
@@ -126,15 +144,24 @@ body {
 }
 
 .action-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
+    width: 400px;
+    height: 328px;
+    border-radius: 48px;
 }
 
 .productive-users {
-    background: #f3f4f6;
-    padding: 100px 20px;
+    height: 328px;
+    width: 1140px;
+    background: #F2F2FE;
+    padding: 50px 80px;
     text-align: center;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .productive-container {
@@ -143,9 +170,11 @@ body {
 }
 
 .productive-container h2 {
+    height: 49px;
+    width: 856px;
     font-size: 32px;
     font-weight: bold;
-    color: #1f2937;
+    color: #252432;
     margin-bottom: 60px;
 }
 
@@ -158,24 +187,35 @@ body {
 }
 
 .stat-item h3 {
-    font-size: 48px;
+    font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
     margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
 }
 
 .stat-item p {
     font-size: 18px;
     color: #6b7280;
+    font-family: 'Inter', sans-serif;
+    font-weight: regular;
 }
 
 .user-feedback {
+    width: 1140px;
+    margin: 0 auto 50px auto;
     padding: 100px 20px;
     background: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .feedback-container {
+    height: 243px;
+    width: 1140px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -190,22 +230,28 @@ body {
 .reviews-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 20px;
 }
 
 .review-card {
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
+    height:243px;
+    width:366.67px;
+    background: #FFFFFF;
+    padding: 24px,24px,24px;
+    border-radius: 14px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     text-align: left;
 }
 
 .stars {
+    height: 20px;
+    width: 116px;
     margin-bottom: 20px;
 }
 
 .review-card h3 {
+    height: 29px;
+    width: 221px;
     font-size: 20px;
     font-weight: bold;
     color: #1f2937;
@@ -213,70 +259,104 @@ body {
 }
 
 .review-card p {
+    height: 44px;
+    width: 318.67px;
     font-size: 16px;
     color: #6b7280;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .reviewer {
+    height: 46px;
+    width:318.67px;
     display: flex;
     align-items: center;
     gap: 12px;
+    
 }
 
 .reviewer img {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
-.reviewer span {
+.reviewer-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewer-name {
     font-size: 14px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.reviewer-date {
+    font-size: 12px;
     color: #6b7280;
 }
 
 .ready-focus {
-    background: #f3f4f6;
+    height: 696.77px;
+    width: 1140px;
+    margin: 100px auto 0 auto;
+    border-radius: 48px;
+    background: #FFFFFF;
     padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .ready-container {
     max-width: 1200px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 80px;
-    align-items: center;
-}
-
-.ready-content {
-    text-align: center;
 }
 
 .ready-content h2 {
-    font-size: 36px;
+    height: 60px;
+    width: 516px;
+    font-size: 50px;
     font-weight: bold;
-    color: #1f2937;
+    color: #000000;
     margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ready-content p {
     font-size: 18px;
-    color: #6b7280;
+    color: rgba(0, 0, 0, 0.5);
     margin-bottom: 30px;
     line-height: 1.6;
 }
 
 .get-started-btn {
+    min-height: 48px;
+    min-width: 195px;
     background: #4E47FF;
     color: white;
-    padding: 16px 32px;
+    padding: 12px 36px;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 18px;
     cursor: pointer;
     transition: background 0.3s ease;
+    margin-bottom: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .get-started-btn:hover {
@@ -284,9 +364,9 @@ body {
 }
 
 .ready-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
 }
 
 @media (max-width: 768px) {
@@ -299,6 +379,8 @@ body {
     }
     
     .action-container {
+        height: 203px;
+        width: 517px;
         grid-template-columns: 1fr;
         gap: 40px;
         text-align: center;
